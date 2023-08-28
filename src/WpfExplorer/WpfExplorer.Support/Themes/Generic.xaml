@@ -1,6 +1,9 @@
 <ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
 	<ResourceDictionary.MergedDictionaries>
-		<ResourceDictionary Source="/WpfExplore.Support;component/Themes/Units/DarkScrollViewer.xaml"/>
-		<ResourceDictionary Source="/WpfExplore.Support;component/Themes/Units/DarkWindow.xaml"/>
+		<ResourceDictionary Source="/WpfExplorer.Support;component/Themes/Units/Closebutton.xaml" />
+		<ResourceDictionary Source="/WpfExplorer.Support;component/Themes/Units/MaximizeButton.xaml" />
+		<ResourceDictionary Source="/WpfExplorer.Support;component/Themes/Units/MinimizeButton.xaml" />
+		<ResourceDictionary Source="/WpfExplorer.Support;component/Themes/Units/DarkScrollViewer.xaml" />
+		<ResourceDictionary Source="/WpfExplorer.Support;component/Themes/Units/DarkWindow.xaml" />
 	</ResourceDictionary.MergedDictionaries>
 </ResourceDictionary>

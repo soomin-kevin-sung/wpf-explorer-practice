@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows;
+using WpfExplorer.Forms.Local;
 using WpfExplorer.Support.UI.Units;
 
 namespace WpfExplorer.Forms.UI.Views
@@ -14,6 +15,11 @@ namespace WpfExplorer.Forms.UI.Views
 		{
 			DefaultStyleKeyProperty.OverrideMetadata(typeof(ExplorerWindow),
 				new FrameworkPropertyMetadata(typeof(ExplorerWindow)));
+		}
+
+		public ExplorerWindow()
+		{
+			DataContext = new ExplorerViewModel();
 		}
 	}
 }

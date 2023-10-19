@@ -11,7 +11,7 @@
 						Background="{TemplateBinding Background}"
 						BorderBrush="{TemplateBinding BorderBrush}"
 						BorderThickness="{TemplateBinding BorderThickness}">
-						<units:FolderTreeView ItemsSource="{Binding Roots}" />
+						<units:FolderTreeView ItemsSource="{Binding Roots}" SelectionCommand="{Binding FolderChangedCommand}" />
 					</Border>
 				</ControlTemplate>
 			</Setter.Value>

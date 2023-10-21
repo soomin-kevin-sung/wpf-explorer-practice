@@ -27,7 +27,7 @@ namespace WpfExplorer.Support.Local.Helpers
 			{
 				CreateFolderInfo(1, "Download", IconType.ArrowDownBox, _directoryManager.DownloadDirectory),
 				CreateFolderInfo(1, "Documents", IconType.TextBox, _directoryManager.DocumentsDirectory),
-				CreateFolderInfo(1, "Pictures", IconType.ArrowDownBox, _directoryManager.PicturesDirectory),
+				CreateFolderInfo(1, "Pictures", IconType.Image, _directoryManager.PicturesDirectory),
 			};
 
 			// 존재하는 드라이브 추가
